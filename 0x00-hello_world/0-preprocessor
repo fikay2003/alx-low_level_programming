@@ -1,0 +1,9 @@
+#!/bin/bash 
+echo 
+#include <stdio.h>
+int main()
+{
+$CFILE = main.c;
+printf("%c", main.c;)
+return 0;
+}
