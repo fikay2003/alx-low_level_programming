@@ -7,6 +7,10 @@
  */
 int main(void)
 {
-	puts("\"Programiing is like building a multilingual puzzle"); 
+/*
+ *Trim trailing space
+ */
+	str. trim();
+puts("\"Programming is like building a multilingual puzzle"); 
 	return (0);
 }
