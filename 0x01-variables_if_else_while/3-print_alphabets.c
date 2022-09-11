@@ -3,19 +3,19 @@
 * main-Entry point
 *
 * Description: using the main function
-* this program prints "programming is postive, zero, or negative
-* Return:Always 0 (Success)
+* this program prints programming is postive, zero, or negative
+* Return:Always 0
 */
 int main(void)
 {
-char c;
-for (char c = 'a'; c <= 'z'; c++)
+char ch;
+for (char ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(c);
+putchar(ch);
 }
-for (char c = 'A'; c <= 'Z'; c++)
+for (char ch = 'A'; ch <= 'Z'; ch++)
 {
-putchar(c);
+putchar(ch);
 }
 putchar ('\n');
 return (0);
