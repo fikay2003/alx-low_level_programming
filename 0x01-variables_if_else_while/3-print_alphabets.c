@@ -2,14 +2,15 @@
 /**
 * main-Entry point
 *
-* Return: Always 0
+* return:Always 0 (Success)
 */
 int main(void)
 {
-for (char ch = 'a'; ch <= 'z'; ++ch)
-putchar(ch);
-for (char ch = 'A'; ch <= 'Z'; ++ch)
-putchar(ch);
+	for (char ch = 'a'; ch <= 'z'; ++ch)
+		putchar(ch);
 putchar('\n');
+	for (char ch = 'A'; ch <= 'Z'; ++ch)
+		putchar(ch);
 return (0);
 }
+
