@@ -2,15 +2,21 @@
 /**
 * main-Entry point
 *
-* return:Always 0 (Success)
+* Description: using the main function
+* this program prints "programming is postive, zero, or negative
+* Return:Always 0 (Success)
 */
 int main(void)
 {
-	for (char ch = 'a'; ch <= 'z'; ++ch)
-		putchar(ch);
-putchar('\n');
-	for (char ch = 'A'; ch <= 'Z'; ++ch)
-		putchar(ch);
+char ch;
+for (char ch = 'a'; ch <= 'z'; ++ch)
+{
+putchar(ch);
+}
+for (char ch = 'A'; ch <= 'Z'; ++ch)
+{
+putchar(ch);
+}
+putchar ('\n');
 return (0);
 }
-
