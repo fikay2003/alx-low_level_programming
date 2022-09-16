@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* -isupper - Function use to check if c is a uppercase lette
-*
+* _isupper - Function use to check if c is a uppercase lette
+* @c: character to be tested
 * Return: Always 0
 */
 int _isupper(int c)
