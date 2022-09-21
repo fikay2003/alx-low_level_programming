@@ -13,10 +13,10 @@ index++;
 half = index / 2;
 if (index % 2 == 1)
 half++;
-while (haf < index)
+while (half < index)
 {
 _putchar(str[half]);
 half++;
 }
-_putchr('\n');
+_putchar('\n');
 }
