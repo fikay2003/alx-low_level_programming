@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* _strncat - concatenates two strings uisng at most an inputted number of butes from src.
+* _strncat - concatenates two strings uisng at most
+* an inputted number of butes from src.
 * @dest: The string to be appended upon.
 * @src: the string to be appended to dest.
 * @n: The number of bytes from src to be appended to dest.
-
 * Return: A pointer to the resulting string dest.
 */
 char *_strncat(char *dest, char *src, int n)
