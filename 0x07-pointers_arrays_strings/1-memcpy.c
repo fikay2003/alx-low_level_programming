@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 /**
 * _memcpy - a function that copies memory area
 * @dest: memory area to be copied to
@@ -13,4 +13,5 @@ for (i = 0; i < n; i++)
 {
 dest[i] = src[i];
 return (dest);
+}
 }
