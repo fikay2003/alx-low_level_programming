@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* void- entry point
+* main- entry point
 * @argc: it is an argument count
 * @argv: is a vector of c string
 *
