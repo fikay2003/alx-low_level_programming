@@ -7,7 +7,7 @@
  * Return: Null if size is zero or of it fails,
  *  Pointer to array if everything is normla
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int index;
@@ -21,3 +21,4 @@ char *create_array(unsigned int size, char c);
 			for (index = 0; index < size; index++)
 				array[index] = c;
 			return (array);
+}
