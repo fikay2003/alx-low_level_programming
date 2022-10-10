@@ -13,4 +13,11 @@ char *name;
 float *age;
 char *owner;
 };
-#endiif /*DOG_H*/
+/**
+ * my_dog - Typedef for dog structure
+ */
+typedef struct dog my_dog;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+void free_dog(dog_t *d);
+#endif
