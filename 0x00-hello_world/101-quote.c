@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <sys/syscall.h>
 /*
- * main - Entry poin
+ * main - Entry point
  *
- * Return is always 0
+ * Return: is always 0
  */
 int main(void)
 {
-	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return (1);
-]
+const char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"; 
+syscall(SYS_write, 1, msg, sizeof(msg)); 
+return (1); 
+}
